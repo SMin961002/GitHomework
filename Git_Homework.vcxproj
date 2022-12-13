@@ -129,6 +129,8 @@
   <ItemGroup>
     <ClCompile Include="LeftTop.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="RightBottom.cpp" />
+    <ClCompile Include="RightTop.cpp" />
     <ClCompile Include="stdafx.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -140,6 +142,8 @@
   <ItemGroup>
     <ClInclude Include="LeftTop.h" />
     <ClInclude Include="Main.h" />
+    <ClInclude Include="RightBottom.h" />
+    <ClInclude Include="RightTop.h" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

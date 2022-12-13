@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "RightBottom.h"
 
-void RightBottom::textO(HDC hdc)
+void RightBottom::TextO(HDC hdc)
 {
 	for (int i = WINSIZE_X / 2; i < WINSIZE_X; i+= 20)
 	{

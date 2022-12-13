@@ -1,4 +1,5 @@
 #pragma once
+#include"LeftTop.h"
 #include "RightBottom.h"
 #include "RightTop.h"
 
@@ -7,6 +8,7 @@ class Main
 public:
 	RightBottom* rightBottom;
 	RightTop* rightTop;
+	LeftTop* leftTop;
 
 	Main() {}
 	~Main() {}

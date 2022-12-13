@@ -1,6 +1,8 @@
 #include "stdafx.h"
 #include "Main.h"
 
+#include "LeftBottom.h"
+
 void Main::Init()
 {
 }
@@ -11,6 +13,8 @@ void Main::Update()
 
 void Main::Render(HDC hdc)
 {
+    LeftBottom lp;
+    lp.TextO(hdc);
 }
 
 void Main::Release()

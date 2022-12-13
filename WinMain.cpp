@@ -47,9 +47,7 @@ int APIENTRY WinMain(
 
     setWindowSize(WINSTART_X, WINSTART_Y, WINSIZE_X, WINSIZE_Y);
 
-    ShowWindow(_hWnd, nCmdShow);
-
-    if (FAILED(ShowWindow))
+    if (FAILED(ShowWindow(_hWnd, nCmdShow)))
     {
         return 0;
     }

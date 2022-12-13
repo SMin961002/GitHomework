@@ -3,7 +3,7 @@
 
 void Main::Init()
 {
-    rightBottom = new RightBottom;
+    _LeftTop = new LeftTop;
 }
 
 void Main::Update()
@@ -12,7 +12,9 @@ void Main::Update()
 
 void Main::Render(HDC hdc)
 {
-    rightBottom->textO(hdc);
+    
+    _LeftTop->TextO(hdc);
+
 }
 
 void Main::Release()

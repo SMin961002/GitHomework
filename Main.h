@@ -1,9 +1,12 @@
 #pragma once
-#include "RightBottom.h"
+#include"LeftTop.h"
 class Main
 {
 public:
-	RightBottom* rightBottom;
+
+	
+	LeftTop* _LeftTop;
+
 	Main() {}
 	~Main() {}
 public:

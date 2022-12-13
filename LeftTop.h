@@ -6,7 +6,7 @@ public:
 
 
 
-	void text(HDC hdc);
+	void TextO(HDC hdc);
 
 	LeftTop() {}
 	~LeftTop() {}

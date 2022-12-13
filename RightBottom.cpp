@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "Taewooo.h"
 
-void Taewooo::textO(HDC hdc)
+void RightBottom::textO(HDC hdc)
 {
 	for (int i = WINSIZE_X / 2; i < WINSIZE_X; i+= 20)
 	{

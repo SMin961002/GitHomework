@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "Taewooo.h"
+#include "RightBottom.h"
 
 void RightBottom::textO(HDC hdc)
 {

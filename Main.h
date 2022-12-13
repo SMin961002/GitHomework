@@ -1,9 +1,9 @@
 #pragma once
-#include "Taewooo.h"
+#include "RightBottom.h"
 class Main
 {
 public:
-	Taewooo* taew;
+	RightBottom* rightBottom;
 	Main() {}
 	~Main() {}
 public:

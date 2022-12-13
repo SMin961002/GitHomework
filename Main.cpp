@@ -3,7 +3,7 @@
 
 void Main::Init()
 {
-    taew = new Taewooo;
+    rightBottom = new RightBottom;
 }
 
 void Main::Update()

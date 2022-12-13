@@ -4,11 +4,42 @@
     <ClCompile Include="WinMain.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="Main.cpp" />
+<<<<<<< HEAD
     <ClCompile Include="LeftBottom.cpp" />
+=======
+<<<<<<< HEAD
+    <ClCompile Include="LeftTop.cpp" />
+=======
+    <ClCompile Include="RightBottom.cpp">
+      <Filter>Word</Filter>
+    </ClCompile>
+    <ClCompile Include="RightTop.cpp">
+      <Filter>Word</Filter>
+    </ClCompile>
+>>>>>>> f2bbc1321fb5433136e0ee80dab07b161602117f
+>>>>>>> 125895a1f6d163e8e3d6830b4943a0b26c019412
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Main.h" />
+<<<<<<< HEAD
     <ClInclude Include="LeftBottom.h" />
+=======
+<<<<<<< HEAD
+    <ClInclude Include="LeftTop.h" />
+=======
+    <ClInclude Include="RightBottom.h">
+      <Filter>Word</Filter>
+    </ClInclude>
+    <ClInclude Include="RightTop.h">
+      <Filter>Word</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Word">
+      <UniqueIdentifier>{79b361d1-10dd-4cf3-bcb3-8a76d905c673}</UniqueIdentifier>
+    </Filter>
+>>>>>>> f2bbc1321fb5433136e0ee80dab07b161602117f
+>>>>>>> 125895a1f6d163e8e3d6830b4943a0b26c019412
   </ItemGroup>
 </Project>

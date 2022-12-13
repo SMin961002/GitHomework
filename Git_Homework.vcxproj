@@ -42,7 +42,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -129,8 +129,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="LeftBottom.cpp" />
+=======
+    <ClCompile Include="LeftTop.cpp" />
+>>>>>>> 125895a1f6d163e8e3d6830b4943a0b26c019412
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="RightBottom.cpp" />
+    <ClCompile Include="RightTop.cpp" />
     <ClCompile Include="stdafx.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -141,8 +147,14 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClInclude Include="LeftBottom.h" />
+=======
+    <ClInclude Include="LeftTop.h" />
+>>>>>>> 125895a1f6d163e8e3d6830b4943a0b26c019412
     <ClInclude Include="Main.h" />
+    <ClInclude Include="RightBottom.h" />
+    <ClInclude Include="RightTop.h" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

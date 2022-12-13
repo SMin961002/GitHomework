@@ -5,6 +5,12 @@
 
 void Main::Init()
 {
+
+    leftTop = new LeftTop;
+
+    rightBottom = new RightBottom;
+    rightTop = new RightTop;
+
 }
 
 void Main::Update()
@@ -13,10 +19,19 @@ void Main::Update()
 
 void Main::Render(HDC hdc)
 {
+
+    
+    leftTop->TextO(hdc);
+
+    rightBottom->TextO(hdc);
+    rightTop->TextO(hdc);
+
 }
 
 void Main::Release()
 {
+    delete(rightBottom);
+    delete(rightTop);
 }
 
 LRESULT Main::WndProc(HWND hWnd, UINT iMessage, WPARAM wParam, LPARAM lParam)

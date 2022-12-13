@@ -3,6 +3,7 @@
 
 void Main::Init()
 {
+    rightBottom = new RightBottom;
 }
 
 void Main::Update()
@@ -11,6 +12,7 @@ void Main::Update()
 
 void Main::Render(HDC hdc)
 {
+    rightBottom->textO(hdc);
 }
 
 void Main::Release()

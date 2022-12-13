@@ -5,7 +5,7 @@ void Main::Init()
 {
 
     leftTop = new LeftTop;
-
+    leftBottom = new LeftBottom;
     rightBottom = new RightBottom;
     rightTop = new RightTop;
 
@@ -16,14 +16,11 @@ void Main::Update()
 }
 
 void Main::Render(HDC hdc)
-{
-
-    
+{    
     leftTop->TextO(hdc);
-
+    leftBottom->TextO(hdc);
     rightBottom->TextO(hdc);
     rightTop->TextO(hdc);
-
 }
 
 void Main::Release()

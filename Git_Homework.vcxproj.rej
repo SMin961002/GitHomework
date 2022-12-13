@@ -1,0 +1,9 @@
+diff a/Git_Homework.vcxproj b/Git_Homework.vcxproj	(rejected hunks)
+@@ -129,6 +129,7 @@
+     </Link>
+   </ItemDefinitionGroup>
+   <ItemGroup>
++<<<<<<< HEAD
+     <ClCompile Include="LeftBottom.cpp" />
+ =======
+     <ClCompile Include="LeftTop.cpp" />

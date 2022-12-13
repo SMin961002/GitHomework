@@ -12,7 +12,7 @@ void Main::Update()
 
 void Main::Render(HDC hdc)
 {
-    taew->textO(hdc);
+    rightBottom->textO(hdc);
 }
 
 void Main::Release()

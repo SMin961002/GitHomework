@@ -3,6 +3,7 @@
 
 void Main::Init()
 {
+    taew = new Taewooo;
 }
 
 void Main::Update()
@@ -11,6 +12,7 @@ void Main::Update()
 
 void Main::Render(HDC hdc)
 {
+    taew->textO(hdc);
 }
 
 void Main::Release()

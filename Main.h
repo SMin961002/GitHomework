@@ -1,10 +1,12 @@
 #pragma once
+#include "Taewooo.h"
 class Main
 {
 public:
+	Taewooo* taew;
 	Main() {}
 	~Main() {}
-public :
+public:
 	void Init();
 	void Update();
 	void Render(HDC hdc);

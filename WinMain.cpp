@@ -1,11 +1,6 @@
-#include <Windows.h>
-#include <iostream>
-#include <string>
-
-using namespace std;
+#include "stdafx.h"
 
 HINSTANCE _hInstance;
-HWND _hWnd;
 
 LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
 void setWindowSize(int x, int y, int width, int height);

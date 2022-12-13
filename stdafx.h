@@ -11,6 +11,6 @@ using namespace std;
 #define WINSTART_X 0
 #define WINSTART_Y 0
 #define WINSIZE_X 1920
-#define WINSIZE_Y 1000
+#define WINSIZE_Y 1080
 
 extern HWND _hWnd;

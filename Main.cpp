@@ -13,8 +13,6 @@ void Main::Update()
 
 void Main::Render(HDC hdc)
 {
-    LeftBottom lp;
-    lp.TextO(hdc);
 }
 
 void Main::Release()

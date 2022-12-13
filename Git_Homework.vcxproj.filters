@@ -4,16 +4,23 @@
     <ClCompile Include="WinMain.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="Main.cpp" />
+<<<<<<< HEAD
+    <ClCompile Include="LeftTop.cpp" />
+=======
     <ClCompile Include="RightBottom.cpp">
       <Filter>Word</Filter>
     </ClCompile>
     <ClCompile Include="RightTop.cpp">
       <Filter>Word</Filter>
     </ClCompile>
+>>>>>>> f2bbc1321fb5433136e0ee80dab07b161602117f
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Main.h" />
+<<<<<<< HEAD
+    <ClInclude Include="LeftTop.h" />
+=======
     <ClInclude Include="RightBottom.h">
       <Filter>Word</Filter>
     </ClInclude>
@@ -25,5 +32,6 @@
     <Filter Include="Word">
       <UniqueIdentifier>{79b361d1-10dd-4cf3-bcb3-8a76d905c673}</UniqueIdentifier>
     </Filter>
+>>>>>>> f2bbc1321fb5433136e0ee80dab07b161602117f
   </ItemGroup>
 </Project>

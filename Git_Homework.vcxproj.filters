@@ -7,6 +7,7 @@
     <ClCompile Include="RightTop.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="LeftBottom.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LeftTop.h" />
@@ -14,5 +15,6 @@
     <ClInclude Include="RightBottom.h" />
     <ClInclude Include="RightTop.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="LeftBottom.h" />
   </ItemGroup>
 </Project>
